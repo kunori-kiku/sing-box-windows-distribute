@@ -12,8 +12,8 @@ set "URL="
 
 :: Check if sub.txt exists
 if not exist "%SUB_FILE%" (
-    echo file not found > "%SUB_FILE%"
-    echo file not found
+    echo [Subscription link to be put here, delete this line first] > "%SUB_FILE%"
+    echo Subscription link not found. Please add the URL to sub.txt and run the script again.
     pause
     exit /b 1
 )
